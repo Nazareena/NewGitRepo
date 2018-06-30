@@ -24,7 +24,7 @@ global with sharing class CloseOpportunity
         } catch (Exception ex) {
             return ;
         }
-        System.debug('--------TestFE------->'+reqBodyObj);
+        System.debug('--------TestFEFE------->'+reqBodyObj);
         
         List<Opportunity> lstOpp;
         if(reqBodyObj.Id!= null){
