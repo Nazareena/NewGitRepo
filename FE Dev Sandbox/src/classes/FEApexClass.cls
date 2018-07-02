@@ -5,7 +5,7 @@ public class FEApexClass {       //Class definition and body
    public static Integer getCalculatedValue () {
    // Method definition and body test
    // do some calculationn
-      myValue = myValue+16;
+      myValue = myValue+10;
       return myValue;
    }
 }
